@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 13px;
+    font-size: 0.8em;
     max-width: 960px;
     margin: auto;
 }
@@ -60,4 +60,12 @@ h4{
 i {
     padding: 1px;
     }
-    
+    img {
+        border-radius: 10px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+      }
