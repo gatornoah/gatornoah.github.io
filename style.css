@@ -13,7 +13,12 @@ body {
   align-items: center;     /* center vertically */
   text-align: center;
 }
-
+@media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: white;
+    }
+}
 .words {
   line-height: 1.5;
 }
