@@ -24,7 +24,7 @@ body {
 }
 
 .words a:hover {
-  color: black;
+    color: black;
 }
 
 @media (prefers-color-scheme: dark) {
