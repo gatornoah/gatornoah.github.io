@@ -6,12 +6,6 @@ body {
   background-color: #ffffff; 
   color: #333333;            
 }
-@media (prefers-color-scheme: dark) {
-      body {
-        background-color: #121212;
-        color: white;
-    }
-}
 body {
   display: flex;
   justify-content: center;
@@ -31,5 +25,5 @@ body {
 
 .words a:hover {
   text-decoration: underline;
-  color: #000000;         
+  mix-blend-mode: difference;         
 }
