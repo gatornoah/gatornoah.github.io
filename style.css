@@ -38,7 +38,7 @@ p {
 
 hr {
     border: none;
-    background-color: lightgray;
+    background-color: white;
     height: px;
 }
 
@@ -47,7 +47,7 @@ h1, h2 {
     margin-bottom: 0;
 }
 #mainLeft {
-    border-right: 2px solid lightgray;
+    border-right: 2px solid white;
  }
 h2{
     margin:0;
@@ -72,3 +72,12 @@ i {
       button {
         max-width: 90px;
       }
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff5500;
+  text-decoration: underline;
+}
