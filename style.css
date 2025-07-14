@@ -24,6 +24,11 @@ body {
 }
 
 .words a:hover {
-  text-decoration: underline;
-  mix-blend-mode: difference;         
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  .words a:hover {
+    color: white;
+  }
 }
