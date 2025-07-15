@@ -2,7 +2,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 12pt;
+  font-size: clamp(1rem, 2vw, 1.5rem);
   background-color: #ffffff; 
   color: #333333;            
 }
